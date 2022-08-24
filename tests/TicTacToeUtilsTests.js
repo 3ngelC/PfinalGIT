@@ -14,15 +14,15 @@ describe('Board size two', () => {
       ],
       empty: ['0 0', '0 1', '1 0', '1 1],
     };
-    assert.notEqual(board, expectedBoard);
+    assert.NotEqual(board, expectedBoard);
   });
 });
 
 describe('compare tictactoe board size', () => {
   it('works', () => {
     const ticTacToeUtils = new tictactoeUtils.TicTacToeUtils();
-    const board = ticTacToeUtils.buildBoard(2);
-    const expectedBoardSize = 2;
+    const board = ticTacToeUtils.buildBoard(0);
+    const expectedBoardSize = 0;
     const currentBoardSize = board.board.length;
     assert.equal(expectedBoardSize, currentBoardSize);
   });
