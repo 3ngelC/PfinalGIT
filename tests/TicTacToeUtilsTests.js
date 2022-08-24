@@ -12,7 +12,7 @@ describe('Board size two', () => {
         [null, null],
         [null, null],
       ],
-      empty: ['0 0', '0 1', '1 0', '1 1'],
+      empty: ['0 0', '0 1', '1 0', '1 1],
     };
     assert.notEqual(board, expectedBoard);
   });
