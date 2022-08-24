@@ -23,7 +23,7 @@ describe('compare tictactoe board size', () => {
     const ticTacToeUtils = new tictactoeUtils.TicTacToeUtils();
     const board = ticTacToeUtils.buildBoard(0);
     const expectedBoardSize = 0;
-    const currentBoardSize = board.board.length;
+    const currentBoardSize = board.board.;
     assert.equal(expectedBoardSize, currentBoardSize);
   });
 });
