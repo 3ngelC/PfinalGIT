@@ -10,7 +10,7 @@ var TicTacToe = function(readline) {
 	var _rl = null
 		, _boardSize = 3
 		, _boardData = {}
-		, _playerMarks = ['x', 'o']
+		, _playerMarks = ['', 'o']
 		, _players = [];
 
 	_init(readline);
